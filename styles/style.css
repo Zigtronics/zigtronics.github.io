@@ -133,3 +133,4 @@ body>footer.footer-rich{display:block;padding:0;background:#080908;color:#c7c9c1
 .contact-numbers .phone{display:block}
 .rating-block{align-items:center}
 .rating-block .stars{letter-spacing:0;word-spacing:0;display:flex;gap:6px;justify-content:center}
+.rating-block .stars{font-size:22px;gap:9px}
