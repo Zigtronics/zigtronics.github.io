@@ -129,3 +129,4 @@ body>footer.footer-rich{display:block;padding:0;background:#080908;color:#c7c9c1
 .button.ghost{background:transparent;color:#fff;border:1px solid #66685f;font-weight:600}
 .button.ghost:hover{background:transparent;border-color:var(--yellow);color:var(--yellow)}
 .contact-numbers .num-label{width:66px}
+.contact-numbers .phone,.contact-numbers .fax-line{display:grid;grid-template-columns:70px auto;align-items:baseline}
