@@ -4,10 +4,13 @@ Responsive website for Zigtronics, Inc., featuring services, project photos, and
 
 ## Files
 
-- `index.html` — page content and layout.
+- `index.html` — page content and layout, including SEO, Open Graph, Twitter, and LocalBusiness structured data.
 - `styles/style.css` — colors, typography, and responsive styling.
 - `scripts/script.js` — gallery, navigation, and photo viewer.
 - `assets/` — photos, logo, and favicon.
+- `CNAME` — GitHub Pages custom domain (zigtronics.com).
+- `robots.txt` — allows all crawlers and points to the sitemap.
+- `sitemap.xml` — lists https://zigtronics.com/.
 - `.nojekyll` — disables Jekyll processing on GitHub Pages.
 
 ## Usage

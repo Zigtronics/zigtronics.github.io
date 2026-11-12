@@ -10,3 +10,6 @@
 
 /* Keep project images and captions aligned despite differing caption lengths. */
 .project-grid{align-items:start}.project{display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch;width:100%;align-self:start}.project-image{flex:none;width:100%}.project-caption{width:100%}
+
+/* Footer Google reviews/directions link */
+.footer-maps{font-size:13px;font-weight:600;color:#d9ddd1;border-bottom:1px solid currentColor;padding-bottom:3px}.footer-maps:hover{color:var(--yellow)}@media(max-width:760px){.footer-maps{font-size:12px}}
