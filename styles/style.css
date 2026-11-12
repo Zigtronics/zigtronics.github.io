@@ -61,3 +61,7 @@
 .menu-toggle[aria-expanded="true"] .bars{background:transparent}
 .menu-toggle[aria-expanded="true"] .bars::before{transform:translateY(7px) rotate(45deg)}
 .menu-toggle[aria-expanded="true"] .bars::after{transform:translateY(-7px) rotate(-45deg)}
+.project-caption .eyebrow{font-size:13px;color:#2b2e26;font-weight:700;letter-spacing:1.6px}
+.project-caption h3{font-size:clamp(24px,2.2vw,30px);font-weight:600;color:#111}
+.project-caption p{font-size:14px;color:#3d4137}
+.project-caption .index{font-size:20px;color:#2b2e26;font-weight:600}
