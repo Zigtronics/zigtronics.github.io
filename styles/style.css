@@ -70,3 +70,7 @@
 .map-apple{position:relative;background:#e9ece4;overflow:hidden}
 .map-apple-frame{position:absolute;inset:0;width:100%;height:100%;border:0;pointer-events:none}
 .map-apple .map-label{z-index:1}
+.map-split.map-single{grid-template-columns:1fr}
+.map-split.map-single .map-embed{height:440px}
+@media (max-width:700px){.map-split.map-single .map-embed{height:320px}}
+.contact .apple-link{display:inline-block;margin-top:12px;font-size:14px;font-weight:600}
