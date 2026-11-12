@@ -135,3 +135,15 @@ body>footer.footer-rich{display:block;padding:0;background:#080908;color:#c7c9c1
 .rating-block .stars{letter-spacing:0;word-spacing:0;display:flex;gap:6px;justify-content:center}
 .rating-block .stars{font-size:22px;gap:9px}
 .rating-block .stars span{letter-spacing:8px;margin-right:-8px;font-size:22px}
+@media(min-width:761px){.contact.layout-c{grid-template-columns:1fr 1.25fr;align-items:center}}
+.contact-split{display:grid !important;grid-template-columns:1fr 1fr;gap:0;align-items:stretch}
+.contact-box{display:flex;flex-direction:column;align-items:flex-start;padding:6px 0 6px 36px;border-left:1px solid #1c1f1440}
+.contact-box-label{font-size:12px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;margin:0 0 18px;color:#181b10}
+.contact-box .phone{margin:0 0 10px}
+.contact-box .email{font-size:20px;margin:6px 0 0}
+.contact-box .button.dark{margin-top:auto !important}
+.contact-box .email{margin-bottom:22px}
+@media(max-width:760px){.contact-split{grid-template-columns:1fr;gap:28px}.contact-box{padding:0 0 0 18px}}
+.contact-box .fax-line{display:grid;grid-template-columns:44px auto;align-items:baseline;margin:0;font-size:16px;color:#6f7330}
+.contact-box .num-label{font-size:12px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:#6f7330}
+@media(max-width:760px){.contact-box{border-left:0;border-top:1px solid #1c1f1440;padding:22px 0 0}}
