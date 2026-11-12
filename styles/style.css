@@ -66,3 +66,4 @@
 .expand{font-size:0}
 .expand::before,.expand::after{content:"";position:absolute;left:50%;top:50%;width:16px;height:2px;background:#fff;transform:translate(-50%,-50%)}
 .expand::after{width:2px;height:16px}
+.contact .coords{font-size:12px;letter-spacing:1.5px;margin:10px 0 0;opacity:.7}
