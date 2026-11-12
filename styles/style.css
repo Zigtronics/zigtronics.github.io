@@ -84,3 +84,48 @@
 .button.ghost:hover{background:var(--yellow);color:#111;border-color:var(--yellow)}
 @media(max-width:760px){.review-buttons{flex-direction:column;align-items:stretch;margin-bottom:28px}.review-buttons .button{width:100%}}
 .button.ghost{border-color:transparent}
+
+/* Layout C: lean yellow CTA; address, hours, social and map move to a rich footer */
+.contact.layout-c{grid-template-columns:1.15fr minmax(0,0.9fr);column-gap:8%;row-gap:32px;align-items:end;padding-top:96px;padding-bottom:96px}
+.contact.layout-c .contact-title>p:not(.eyebrow){margin-bottom:0;max-width:420px}
+.contact.layout-c .contact-actions{display:flex;flex-direction:column;align-items:flex-start}
+.contact.layout-c .button.dark{grid-column:auto;margin-top:26px}
+.contact.layout-c .mail-note{grid-column:auto;text-align:left;margin:8px 0 0}
+body>footer.footer-rich{display:block;padding:0;background:#080908;color:#c7c9c1}
+.footer-rich .footer-map{margin:0}
+.footer-rich .map-split{grid-column:auto;display:block;gap:0}
+.footer-rich .map-split.map-single .map-embed,.footer-rich .map-embed{height:320px;border:0;border-bottom:1px solid var(--border);background:#1b1c1a}
+.footer-rich .footer-cols{display:grid;grid-template-columns:1.15fr 1fr 0.9fr 0.9fr;gap:36px 40px;padding:52px 6% 56px;align-items:start}
+.footer-rich .footer-brand-col .brand{display:inline-block;margin-bottom:18px}
+.footer-rich .footer-brand-col .brand img{width:145px;height:auto}
+.footer-rich .footer-copy{margin:0;font-size:13px;color:#999d92}
+.footer-rich h3{font-size:13px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:var(--yellow);margin:0 0 14px}
+.footer-rich address,.footer-rich p{font-size:15px;font-style:normal;margin:0;color:#c7c9c1}
+.footer-rich .coords{margin-top:8px;font-size:12px;letter-spacing:1.5px;color:#8b8f84}
+.footer-rich .apple-link{display:inline-block;margin-top:12px;font-size:14px;font-weight:600;color:#f5f5ef;border-bottom:1px solid #66685f}
+.footer-rich .apple-link:hover{color:var(--yellow);border-color:var(--yellow)}
+.footer-rich .muted{color:#8b8f84}
+.footer-rich .fax{margin-top:10px;font-size:13px;color:#8b8f84}
+.footer-rich .social-links{grid-column:auto;border-top:0;padding-top:0;gap:14px 0;flex-direction:column}
+.footer-rich .social-links a{color:#f5f5ef;font-size:15px}
+.footer-rich .social-links a:hover{color:var(--yellow)}
+.footer-rich .social-links span{color:#a7aaa3}
+@media(max-width:1100px){
+  .footer-rich .footer-cols{grid-template-columns:1fr 1fr;gap:32px 28px}
+}
+@media(max-width:760px){
+  body>footer.footer-rich p{display:block}
+  body>footer.footer-rich{padding:0;display:block}
+  .contact.layout-c{grid-template-columns:1fr;gap:36px;padding-top:65px;padding-bottom:72px;align-items:start}
+  .footer-rich .map-split.map-single .map-embed,.footer-rich .map-embed{height:260px}
+  .footer-rich .footer-cols{grid-template-columns:1fr;padding:36px 6% 44px;gap:26px}
+  .footer-rich .footer-brand-col{grid-column:auto}
+}
+.contact-numbers{display:flex;flex-direction:column;gap:6px}
+.contact-numbers .num-label{display:inline-block;width:52px;font-family:Barlow,Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;vertical-align:middle}
+.contact-numbers .phone .num-label{color:#181b10}
+.contact .fax-line{margin:0;font-size:16px;color:#6f7330}
+.contact .fax-line .num-label{color:#6f7330}
+.button.ghost{background:transparent;color:#fff;border:1px solid #66685f;font-weight:600}
+.button.ghost:hover{background:transparent;border-color:var(--yellow);color:var(--yellow)}
+.contact-numbers .num-label{width:66px}
